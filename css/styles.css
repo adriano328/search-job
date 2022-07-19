@@ -99,6 +99,7 @@ nav:after{
     padding-top: 15em;
     padding-bottom: 15em;
     text-align: center;
+    
 }
 
 .search-form h1{
@@ -111,6 +112,7 @@ nav:after{
     margin-bottom: 60px;
     font-size: 18px;
     font-weight: 300;
+    color: black;
 }
 
 .search-form input, .search-form select{
@@ -148,6 +150,7 @@ nav:after{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 #last-jobs-container h1{
@@ -182,7 +185,7 @@ nav:after{
 
 .company-box{
     display: inline-block;
-    width: 25%;
+    width: 30%;
     position: relative;
     padding-left: 1%;
 }
@@ -316,6 +319,8 @@ nav:after{
 #sendjobs-container p{
     font-size: 18px;
     margin-bottom: 50px;
+    color: white;
+    text-align: left;
 }
 
 .light-btn{
@@ -467,3 +472,194 @@ nav:after{
     top: 10vw;
     right: 8vw;
 }
+
+
+#blog-container{
+    text-align: center;
+    padding: 5em 0;
+
+}
+
+#blog-container p{
+    color: black;
+   margin-bottom: 60px;
+
+}
+
+.article-box{
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+}
+
+.article-box img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article-box h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+.article-box h4 a{
+    text-decoration: none;
+    color: #666;
+
+}
+
+.article-date{
+    position: relative;
+    right: 9.5vw;
+    font-size: 12px;  
+}
+
+.article-date-blog{
+    position: relative;
+    right: 9.5vw;
+    font-size: 12px; 
+    
+}
+
+.article-resume{
+   position: relative;
+   top: -2vw;
+   width: 18vw;
+   font-size: 12px;
+   text-align: left;
+}
+
+.article-btn{
+    position: relative;
+    left: -0.1vw;
+    top: -2vw;
+    background-color: #3381f3;
+    background-color: #3381f3;
+    color: #fff;
+}
+
+.article-btn:hover{
+    background-color: #fff;
+    color: #3381f3;
+}
+
+.article-date{
+    margin-left: 10vw;
+}
+
+footer{
+    background-color: #666;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #3381F3;
+}
+
+footer h2, p, a, span{
+    color: #d1d1d1;
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-list img{
+    height: 1.2vw;
+    
+}
+
+.wrapper p{
+    color: white;
+    
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+    
+    
+}
+
+footer .wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer{
+    width: 80%;
+}
+
+.company-footer h2{
+    margin-top: 20px;
+}
+
+
+.company-footer h2, p{
+    margin-bottom: 20px;
+}
+
+.company-footer p{
+    position: relative;
+    right: 5vw;
+    color: white;
+}
+
+.footer-list li{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.footer-list a{
+    transition: .5s;
+    
+}
+
+.footer-list a{
+    color: #fff;
+}
+
+.footer-list li::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer{
+    width: 80%;
+}
+
+.footer-list .footer-article-list{
+    display: block;
+    float: none;
+    
+
+}
+
+.footer-bottom{
+    border-top: 1px solid #b2b2b2;
+}
+
+.footer-bottom p{
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+
+
