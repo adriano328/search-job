@@ -99,7 +99,6 @@ nav:after{
     padding-top: 15em;
     padding-bottom: 15em;
     text-align: center;
-    display: in;
     
 }
 
@@ -116,8 +115,7 @@ nav:after{
     color: black;
 }
 
-.search-form input, select{
-    display: inline-block;
+.search-form input, .search-form select{
     background-color: #fff;
     border-radius: 5px;
     border-color: transparent;
@@ -126,7 +124,7 @@ nav:after{
     margin: 0 10px;
 }
 
-.search-form input[type=submit], #sendjobs input[type=submit]{
+.search-form input[type=submit]{
     background-color: #3381f3;
     text-transform: uppercase;
     color: #fff;
@@ -134,7 +132,7 @@ nav:after{
     transition: 0.5s;
 }
 
-.search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover{
+.search-form input[type=submit]:hover{
     background-color: #2b79eb;
 }
 
@@ -780,7 +778,7 @@ footer .wrapper:after{
     box-sizing: border-box;
 }
 
-#sendjobs textarea, select{
+#sendjobs textarea, #sendjobs select{
     border-radius: 5px;
     border: 1px solid #ccc;
     font-family: 'Open Sans', sans-serif;
@@ -789,17 +787,18 @@ footer .wrapper:after{
     box-sizing: border-box;
 }
 
-#sendjobs input[type=submit]{
+.search-form input[type=submit], #sendjobs input[type=submit]{
+    background-color: #3381f3;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 150px;
     position: relative;
     top: 1vw;
-    left: 7.8vw;
-    width: 150px;
-    float: right;
+    left: 15.6vw;
 }
 
-.input-box:after{
-    clear: both;
-    content: "";
-    display: block;
+.search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover{
+    background-color: #2b79eb;
 }
-
