@@ -99,6 +99,7 @@ nav:after{
     padding-top: 15em;
     padding-bottom: 15em;
     text-align: center;
+    display: in;
     
 }
 
@@ -115,7 +116,8 @@ nav:after{
     color: black;
 }
 
-.search-form input, .search-form select{
+.search-form input, select{
+    display: inline-block;
     background-color: #fff;
     border-radius: 5px;
     border-color: transparent;
@@ -124,7 +126,7 @@ nav:after{
     margin: 0 10px;
 }
 
-.search-form input[type=submit]{
+.search-form input[type=submit], #sendjobs input[type=submit]{
     background-color: #3381f3;
     text-transform: uppercase;
     color: #fff;
@@ -132,7 +134,7 @@ nav:after{
     transition: 0.5s;
 }
 
-.search-form input[type=submit]:hover{
+.search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover{
     background-color: #2b79eb;
 }
 
@@ -735,3 +737,69 @@ footer .wrapper:after{
     margin-left: .5em;
     
 }
+
+#sendjobs #send-jobs-container{
+    margin-top: 50px;
+    background: none;
+    padding: 5em 0;
+}
+
+
+#sendjobs h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input-box{
+    margin-bottom: 2em;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sendjobs label{
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#sendjobs textarea, select, input{
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+#sendjobs input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#sendjobs textarea, select{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#sendjobs input[type=submit]{
+    position: relative;
+    top: 1vw;
+    left: 7.8vw;
+    width: 150px;
+    float: right;
+}
+
+.input-box:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
