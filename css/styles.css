@@ -130,6 +130,7 @@ nav:after{
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
+    
 }
 
 .search-form input[type=submit]:hover{
@@ -795,10 +796,213 @@ footer .wrapper:after{
     transition: 0.5s;
     width: 150px;
     position: relative;
-    top: 1vw;
-    left: 15.6vw;
+    
+    
 }
 
 .search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover{
     background-color: #2b79eb;
+}
+
+#job-container p{
+    color: black;
+    margin-top: 25px;
+}
+
+#job-header{
+    width: 100%;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ccc;
+    margin-top: 100px;
+    padding: 2em 0;
+}
+
+#job-header .CLT{
+    width: 60%;
+    height: 1vw;
+    color: white;
+    margin-left: 7vw;
+    
+}
+
+#job-header .locality{
+    position: relative;
+    right: 7vw;
+    top: -1vw;
+}
+
+#job-header .date{
+    position: relative;
+    right: 8vw;
+    top: -1.5vw;
+}
+
+#job-header .date img{
+    height: 1vw;
+}
+
+
+#job-header #job-info .job-type{
+    padding-top: 5px;
+    margin-left: 15%;
+    
+}
+
+#job-header h1{
+    font-size: 3em;
+    text-align: center;
+  
+}
+
+#job-header .company-box{
+    width: 100%;
+}
+
+#job-header #job-info{
+    height: 100px;
+    width: 100%;
+    margin-top: 3em;
+    text-align: center;
+}
+
+#job-header #job-info div{
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    position: relative;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    padding-top: 0;
+}
+
+#jobpage .wrapper{
+    padding: 2em 0;
+}
+
+
+#jobpage .wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#job-container{
+    float: left;
+    width: 75%;
+    position: relative;
+
+}
+
+#jobpage .page-title{
+    font-size: 24px;
+    margin-bottom: 1.5em;
+
+}
+
+#jobpage .description{
+    margin-bottom: 1.5em;
+    text-align: left;
+    width: 100%;
+}
+
+#company-img{
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+#companyinfo-container{
+    float: right;
+    width: 25%;
+    padding-top: 4em;
+    padding-left: 1.5em;
+    box-sizing: border-box;
+}
+
+.joppage-list{
+    color: #666;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#companyinfo-container img{
+    width: 100%;
+    display: block;
+}
+
+#companyinfo-container .job-type{
+    display: block;
+    position: relative;
+    width: 100%;    
+    padding: 2em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#apply-btn{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #3381F3;
+    color: #3381F3;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#apply-btn:hover{
+    background-color: #3381F3;
+    color: #fff;
+}
+
+#job-social-list{
+    
+    padding-left: 0;
+    color: black;
+    
+
+}
+
+#job-social-list p{
+    position: relative;
+    right: 13.5vw;
+    color: black;
+
+}
+
+
+#job-social-list li{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    
+}
+
+#job-social-list li img{
+    display: block;
+    list-style: none;
+    width: 2vw;
+    margin-left: 2vw;
+    
+}
+
+#sendjobs input[type=submit]{
+    background-color: #3381f3;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 150px;
+    position: relative;
+    top: 1vw;
+    left: 15.6vw;
+    
 }
